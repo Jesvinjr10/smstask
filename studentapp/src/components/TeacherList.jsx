@@ -4,9 +4,9 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import '../styles/TeacherList.css'; 
 export default function TeacherList() {
   const [teachers, setTeachers] = useState([
-    { id: 1, name: 'Mr. Smith', subject: 'Mathematics' },
-    { id: 2, name: 'Ms. Johnson', subject: 'Science' },
-    { id: 3, name: 'Mrs. Brown', subject: 'English' },
+    { id: 1, name: 'Mr. Albert', subject: 'Mathematics' },
+    { id: 2, name: 'Mr. Jose', subject: 'Science' },
+    { id: 3, name: 'Mrs. Jerith', subject: 'English' },
     { id: 4, name: 'Dr. Wilson', subject: 'History' },
   ]);
   const [modalType, setModalType] = useState('');

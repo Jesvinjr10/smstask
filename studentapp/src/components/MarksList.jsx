@@ -3,10 +3,10 @@ import '../styles/MarksList.css';
 
 export default function MarksList() {
   const [students, setStudents] = useState([
-    { id: 1, name: 'John Doe', class: '10A', teacher: 'Mr. Smith', subject: 'Math', marks: 85 },
-    { id: 2, name: 'Jane Smith', class: '10A', teacher: 'Mrs. Lee', subject: 'Science', marks: 90 },
-    { id: 3, name: 'Tom Hardy', class: '10B', teacher: 'Mr. Brown', subject: 'English', marks: 78 },
-    { id: 4, name: 'Emma Watson', class: '10C', teacher: 'Mrs. Johnson', subject: 'History', marks: 88 }
+    { id: 1, name: 'Jesvin L jose', class: '10A', teacher: 'Mr. Albert', subject: 'Math', marks: 85 },
+    { id: 2, name: 'Joshna L jose', class: '10A', teacher: 'Mr. Jose', subject: 'Science', marks: 90 },
+    { id: 3, name: 'Sharmi', class: '10B', teacher: 'Mrs. Jerith', subject: 'English', marks: 78 },
+    { id: 4, name: 'Reejin', class: '10C', teacher: 'Mrs. Wilson', subject: 'History', marks: 88 }
   ]);
   const [searchTerm, setSearchTerm] = useState('');
   const [showModal, setShowModal] = useState(false);

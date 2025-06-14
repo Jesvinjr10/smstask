@@ -3,10 +3,10 @@ import '../styles/StudentList.css';
 
 export default function StudentList() {
   const [students, setStudents] = useState([
-    { id: 1, name: 'John Doe', class: '10A' },
-    { id: 2, name: 'Jane Smith', class: '10B' },
-    { id: 3, name: 'Tom Hardy', class: '10C' },
-    { id: 4, name: 'Emma Watson', class: '10D' }
+    { id: 1, name: 'Jesvin L jose', class: '10A' },
+    { id: 2, name: 'Joshna L jose', class: '10B' },
+    { id: 3, name: 'Sharmi ', class: '10C' },
+    { id: 4, name: 'Reejin', class: '10D' }
   ]);
   const [showModal, setShowModal] = useState(false);
   const [selectedStudent, setSelectedStudent] = useState(null);
